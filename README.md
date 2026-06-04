@@ -7,7 +7,7 @@ Goal: Become a professional bug bounty hunter by 2027.
 ## What's in here
 - PortSwigger lab writeups (Access Control, Authentication, Business Logic, SSRF)
 - Personal methodology notes
-- Real program findings
+- Real program findings (coming soon)
   
 ## Vulnerability Focus
 - Broken Access Control
