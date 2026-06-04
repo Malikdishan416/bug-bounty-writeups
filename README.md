@@ -21,5 +21,5 @@ Goal: Become a professional bug bounty hunter by 2027.
 - Intigriti (active from January 2027)
 
 ## Contact
-- X: MalikDisha8108
+- X: https://x.com/MalikDisha8108
 - Email: Malikdishan09@gmail.com
