@@ -27,3 +27,4 @@ An authenticated attacker  can intercept the redirect response in Burp Suite and
 The server must not include any sensitive user data in redirect responses. When issuing a 302 redirect the response body should be empty. Sensitive data must only be returned after full authorization verification is complete and the response is confirmed as a final page load, not a redirect. Implement server-side checks that verify session ownership before any account data is processed, not just before it is displayed.
 
 ## Lesson
+A 302 redirect response does not mean the page is inaccessible. If the server returns sensitive data in the response body before redirecting, that data is fully readable in Burp even though the browser never renders it. Always check the body of redirect responses — the server may be leaking information it thinks nobody will see.
