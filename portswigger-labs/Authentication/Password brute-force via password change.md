@@ -95,20 +95,6 @@ Authentication Oracle in Password Change Endpoint Allows Brute-Force of Arbitrar
 
 ---
 
-## 5. Proof of Concept
-```
-The following screenshot demonstrates successful brute-force of
-Carlos's password using the authentication oracle:
-```
-
-!image.png
-
-!image.png
-
-!image.png
-
----
-
 ## 6. Impact
 An authenticated attacker can gain access to the victim’s account via password-change endpoint without the server validating the account by matching the session with the value request parameters before sending requests. By gaining access to the victims account attacker can seize complete control over the account and perform actions such as accessing personal data( DOB, full name ) , order history, saved payment methods.
 
