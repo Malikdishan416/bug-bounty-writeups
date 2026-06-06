@@ -9,7 +9,7 @@
 ---
 
 ## 1. Summary
-The password change endpoint allows any authenticated attacker to submit password-change requests targetting other accounts by modifying the username parameter value with the authentication oracle reveals weather the current password is incorrect. This allows brute-force attacks against arbitrary users.
+The password change endpoint allows any authenticated attacker to submit password-change requests targeting other accounts by modifying the username parameter value with the authentication oracle reveals weather the current password is incorrect. This allows brute-force attacks against arbitrary users.
 ---
 
 ## 2. Methodology
