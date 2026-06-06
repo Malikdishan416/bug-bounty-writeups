@@ -31,3 +31,5 @@ The backend must reject any `quantity` value ≤ 0 with server-side validation �
 
 ## Lesson
 Never trust client-submitted data for financial calculations. The `quantity` parameter is user input — user input is always hostile until proven otherwise. Business logic flaws are not exotic attacks; they are features working as designed where nobody asked "what if this value is negative?" This class of bug pays $500–$3,000 on real e-commerce programs because companies directly lose money.
+
+It is easily noted that two labs in apprentice level seen that has similar vulnerabilities but the diference is this one is pertaining to **Client-side trust:** The server doesn't check at all (e.g."price sent by client is accepted blindly")
