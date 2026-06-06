@@ -33,7 +33,7 @@ My assumption (Hypothesis) 👇
 
 <aside>
 
-How about i restart this in this way, I go as wiener and peter and change the password with current incorrect but with matching new passwords, take that request send to intruder so i can replace wiener with carlos and only add payload to value of current cause thats the only thing incorrected, and once i find a match it would mean that i changed password of carlos?
+"How about i restart this in this way, I go as wiener and peter and change the password with current incorrect but with matching new passwords, take that request send to intruder so i can replace wiener with carlos and only add payload to value of current cause thats the only thing incorrected, and once i find a match it would mean that i changed password of carlos?"
 
 </aside>
 
@@ -45,18 +45,6 @@ How about i restart this in this way, I go as wiener and peter and change the pa
 > 
 
 <aside>
-
-My idea was:
-
-Known endpoint: change password
-↓
-Change username to carlos
-↓
-Bruteforce current-password
-↓
-Keep new passwords matching
-↓
-Look for different behavior
 
 </aside>
 
