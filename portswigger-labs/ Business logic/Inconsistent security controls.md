@@ -1,4 +1,4 @@
-#Inconsistent security controls 
+## Inconsistent security controls 
 
 **Platform:** PortSwigger Web Security Academy
 
@@ -48,8 +48,11 @@ The clue is telling exactly what the vulnerability is.
 
 ## 3. Vulnerability Details
 The application uses email domain (@dontwannacry.com) as the sole mechanism for determining admin access privileges. This check is enforced during account registration — where users are instructed to use their company email — but is completely absent from the email change feature.
+
 The password change endpoint accepts a username parameter and validates the current-password against it without properly checking if the session belongs to that user. Similarly, the email change endpoint accepts any email domain without verification, authorization checks, or confirmation workflow.
+
 Root cause: Inconsistent application of security controls across related features. The registration flow implements domain-based access control, but the email update flow trusts user-supplied input without validating that the user legitimately belongs to the claimed domain.
+
 Result: Any authenticated user can escalate privileges to admin level by simply changing their email address to an arbitrary @dontwannacry.com address, gaining unauthorized access to the admin panel and user deletion functionality.
 
 ---
