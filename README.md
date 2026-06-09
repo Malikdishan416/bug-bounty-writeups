@@ -1,7 +1,7 @@
-# Bug Bounty Writeups — Malik Hettige
+# Bug Bounty Writeups — Malik Hettige, 17
 
 Bug bounty hunter based in Colombo, Sri Lanka.
-Currently grinding PortSwigger labs and hunting on Bugcrowd.
+Currently grinding PortSwigger labs and mastering recon.
 Goal: Become a professional bug bounty hunter by 2027.
 
 ## What's in here
