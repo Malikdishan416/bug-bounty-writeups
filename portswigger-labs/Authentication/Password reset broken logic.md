@@ -41,10 +41,12 @@ Password reset endpoint accepts the username parameter and its value that determ
 
 ## 6. Impact
 An unauthenticated attacker could modify the username parameter by intercepting the forgot password request and log in to victims account without any authentication or authorization checks, this leads to complete account takeover.
+
 ---
 
 ## 7. Suggested Fix
 The server must validate that the password reset token is present, unexpired before processing any password chang. The token must be invalidated immediately after use. The username in the request body must not be trusted — the account to reset should be determined solely from the validated token, not from user-supplied input.
+
 ---
 
 ## 8. References
