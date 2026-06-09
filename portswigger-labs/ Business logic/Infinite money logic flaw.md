@@ -52,6 +52,9 @@ The business logic flaw vulnerability allows gift cards to be purchased using a 
 11. Go to settings, navigate to sessions section
 12. Click add in Session handling rules - Session handling rule editor opens
 13. In rule actions section click add and se the drop-down menus to click ‘run on macro’
+14. Include the identified requests in the macro sequence
+15. Repeatedly execute the workflow to continuously increase the account balance.
+16. Use the accumulated balance to purchase the target item and solve the lab.
 
 ---
 
@@ -60,11 +63,15 @@ The business logic flaw vulnerability allows gift cards to be purchased using a 
 
 - Highlighted requests
 
-`POST /cart
-POST /cart/coupon
-POST /cart/checkout
-GET /cart/order-confirmation?order-confirmed=true
-POST /gift-card`
+`POST /cart'
+
+'POST /cart/coupon'
+
+'POST /cart/checkout'
+
+'GET /cart/order-confirmation?order-confirmed=true'
+
+'POST /gift-card`
 
 ---
 
