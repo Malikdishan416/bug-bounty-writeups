@@ -63,15 +63,15 @@ The business logic flaw vulnerability allows gift cards to be purchased using a 
 
 - Highlighted requests
 
-`POST /cart'
+POST /cart
 
-'POST /cart/coupon'
+POST /cart/coupon
 
-'POST /cart/checkout'
+POST /cart/checkout
 
-'GET /cart/order-confirmation?order-confirmed=true'
+GET /cart/order-confirmation?order-confirmed=true
 
-'POST /gift-card`
+POST /gift-card
 
 ---
 
