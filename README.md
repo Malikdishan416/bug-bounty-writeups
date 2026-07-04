@@ -5,7 +5,7 @@ Writeups from my bug bounty hunting practice and live findings. Focus: IDOR, bro
 - `portswigger-labs/` — solved PortSwigger Web Security Academy labs, organized by category
 - `live-findings/` — writeups from live VDP/paid program hunting
 - `hacker101-ctf/` — notes and flag writeups from Hacker101 CTF
-- - Personal methodology notes
+- `Methodology` — Personal methodology notes
   
 ## Vulnerability Focus
 - Broken Access Control
