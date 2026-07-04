@@ -1,13 +1,11 @@
 # Bug Bounty Writeups — Malik Hettige, 17
-
-Bug bounty hunter based in Colombo, Sri Lanka.
-Currently grinding PortSwigger labs and mastering recon.
-Goal: Become a professional bug bounty hunter by 2027.
+Writeups from my bug bounty hunting practice and live findings. Focus: IDOR, broken access control, authentication, business logic.
 
 ## What's in here
-- PortSwigger lab writeups (Access Control, Authentication, Business Logic, SSRF)
-- Personal methodology notes
-- Real program findings (coming soon)
+- `portswigger-labs/` — solved PortSwigger Web Security Academy labs, organized by category
+- `live-findings/` — writeups from live VDP/paid program hunting
+- `hacker101-ctf/` — notes and flag writeups from Hacker101 CTF
+- - Personal methodology notes
   
 ## Vulnerability Focus
 - Broken Access Control
