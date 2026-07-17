@@ -28,7 +28,7 @@ The `storeId` request which is usually sent by the stock feature in an XML form
 8. Authenticate as administrator using retrieved credentials, confirming full account takeover.
 
 **Proof of Concept**
-![PoC - IDOR Vulnerability](portswigger-labs/assets/1st-SQL-burp.png.)
+![PoC - IDOR Vulnerability](./portswigger-labs/assets/1st-SQL-burp.png)
 
 `HTTP/2 200 OK
 Content-Type: text/plain; charset=utf-8
