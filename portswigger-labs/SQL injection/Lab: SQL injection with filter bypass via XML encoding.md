@@ -28,8 +28,7 @@ The `storeId` request which is usually sent by the stock feature in an XML form
 8. Authenticate as administrator using retrieved credentials, confirming full account takeover.
 
 **Proof of Concept**
-
-![PoC — Repeater response showing extracted usernames and passwords via UNION-based SQL injection](https://raw.githubusercontent.com/Malikdishan416/bug-bounty-writeups/main/portswigger-labs/SQL%20injection/assets/1st-SQL-burp.png)
+![PoC — Repeater response showing extracted usernames and passwords via UNION-based SQL injection](https://github.com/Malikdishan416/bug-bounty-writeups/blob/main/portswigger-labs/SQL%20injection/1st-SQL-burp.png?raw=true)
 
 `HTTP/2 200 OK
 Content-Type: text/plain; charset=utf-8
