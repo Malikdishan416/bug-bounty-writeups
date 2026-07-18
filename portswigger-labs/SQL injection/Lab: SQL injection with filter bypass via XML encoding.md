@@ -33,16 +33,6 @@ The `storeId` request which is usually sent by the stock feature in an XML form
 
 ![PoC — Repeater response showing extracted usernames and passwords via UNION-based SQL injection](https://github.com/Malikdishan416/bug-bounty-writeups/blob/main/portswigger-labs/SQL%20injection/1st-SQL-burp.png?raw=true)
 
-`HTTP/2 200 OK
-Content-Type: text/plain; charset=utf-8
-X-Frame-Options: SAMEORIGIN
-Content-Length: 100`
-
-`carlos~80a4ei8bdecthoh6gwoa
-administrator~51nme4osdmy811pcnpt9
-wiener~n6bvpos7al76fq3m0xk9
-317 units`
-
 ## Root Cause
 
 The application constructed SQL queries by directly concatenating the `storeId` value without parameterization. The WAF attempted to block injection via blacklist pattern-matching on raw syntax (e.g. `UNION SELECT`), but did not decode or normalize XML entities before inspection — allowing an entity-encoded payload to bypass the filter and reach the database layer unsanitized.
