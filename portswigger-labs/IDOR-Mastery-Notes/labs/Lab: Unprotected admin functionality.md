@@ -28,7 +28,8 @@ Observe that it was the location that was unprotected to admin panel path
 **Proof of Concept**
 
 
-<img width="1158" height="286" alt="image" src="https://github.com/user-attachments/assets/413af17c-7282-4b3f-b0df-7b63d73839c0" />
+<img width="1158" height="286" alt="image" src="https://github.com/user-attachments/assets/3206e7f6-4ebe-4656-8597-2b70804f7f52" />
+
 
 ## Root Cause
 
