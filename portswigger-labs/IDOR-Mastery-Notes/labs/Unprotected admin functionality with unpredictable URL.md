@@ -30,6 +30,7 @@ Example: <a href="/[random string]">
 **Proof of Concept**
 
 <img width="775" height="259" alt="image" src="https://github.com/user-attachments/assets/7e69ca37-5f30-439e-acaa-4863fa1e216b" />
+
 Homepage source → leaked admin path → accessible administrator panel
 
 
