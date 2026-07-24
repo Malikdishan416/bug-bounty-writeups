@@ -4,7 +4,7 @@
 
 **Difficulty:** Apprentice 
 
-**Severity:** High
+**Severity:** 8.1 (High)
 
 ## Summary
 
